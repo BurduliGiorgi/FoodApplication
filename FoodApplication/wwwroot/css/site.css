@@ -1,0 +1,67 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(50,48,48,1) 100%);
+}
+
+
+.nav-link {
+    letter-spacing: 2px;
+    font-family: cursive;
+}
+
+#carouselExampleSlidesOnly {
+    height: 500px;
+    width: 100%; 
+    max-width: 1200px; 
+    margin: auto; 
+}
+
+.carousel-inner .carousel-item img {
+    object-fit: cover; 
+    height: 100%;
+}
+
+.custom-navbar {
+    background-color: #323030 !important;
+    border: none !important;
+}
+
+    .custom-navbar .navbar-brand,
+    .custom-navbar .nav-link {
+        color: antiquewhite !important;
+    }
+
+        .custom-navbar .nav-link:hover {
+            color: #524D46 !important;
+        }
+
+
+.carousel-item img {
+    box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.minititle {
+    color:antiquewhite;
+    margin-left: 400px;
+    font-weight: bold;
+}
+
