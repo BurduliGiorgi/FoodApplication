@@ -47,7 +47,7 @@ body {
 
     .custom-navbar .navbar-brand,
     .custom-navbar .nav-link {
-        color: antiquewhite !important;
+        color: rgb(237, 187, 121) !important;
     }
 
         .custom-navbar .nav-link:hover {
@@ -60,8 +60,16 @@ body {
 }
 
 .minititle {
-    color:antiquewhite;
+    color: rgb(237, 187, 121);
     margin-left: 400px;
     font-weight: bold;
+
 }
 
+.dishCard {
+    height: 250px;
+}
+
+#produ {
+    background-color: rgb(237, 187, 121);
+}
