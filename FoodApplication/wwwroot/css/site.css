@@ -18,8 +18,8 @@ html {
 }
 
 body {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(50,48,48,1) 100%);
+    background: rgb(46,45,45);
+    background: linear-gradient(90deg, rgba(46,45,45,1) 100%, rgba(99,94,94,1) 100%);
 }
 
 
@@ -73,3 +73,35 @@ body {
 #produ {
     background-color: rgb(237, 187, 121);
 }
+
+
+
+#recipe-list{
+    top: 5rem;
+}
+#recipe-list::-webkit-scrollbar{
+    width: 10px;
+}
+    #recipe-list::-webkit-scrollbar-track {
+        background-color: rgb(46,45,45);
+    }
+    #recipe-list::-webkit-scrollbar-thumb {
+        background-color: rgb(16, 16, 16);
+        border-radius: 10px;
+    }
+
+
+.recipe-item {
+    background-color: rgb(237, 187, 121);
+    font-family: 'Arial, sans-serif';
+}
+
+    .recipe-item:hover {
+        background-color: rgb(217, 177, 111);
+    }
+
+    .recipe-item a {
+        text-decoration: none;
+        color: dark;
+        font-weight: bold;
+    }
