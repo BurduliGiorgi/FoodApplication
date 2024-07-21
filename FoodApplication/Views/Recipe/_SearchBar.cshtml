@@ -2,11 +2,11 @@
     <div class="p-2">
         <form autocomplete="off">
             <div class="mb-3 row">
-                <div class="col-9">
-                    <input type="text" placeholder="Search Recipe" class="form-control" name="recipe" />
+                <div class="col-11 text-center ui-widget p-1">
+                    <input type="text" id="tags" placeholder="Search Recipe" class="form-control" name="recipe" />
                 </div>
-                <div class="col-3">
-                    <button type="sumbit" style="background-color: rgb(237, 187, 121); width:200px; height:40px">
+                <div class="col-1 p-1">
+                    <button type="sumbit" style="background-color: rgb(237, 187, 121); width:120px; height:40px">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                         </svg>
@@ -16,3 +16,48 @@
         </form>
     </div>
 </div>
+<script src="~/lib/jquery/dist/jquery.min.js"> </script>
+<script>
+    $(function () {
+        var availableTags = [
+            "Mushroom",
+            "Pumpkin",
+            "Apple",
+            "Banana",
+            "Blackberry",
+            "Blueberry",
+            "Coconut",
+            "Grape",
+            "Kiwifruit",
+            "Mango",
+            "Orange",
+            "Papaya",
+            "Pineapple",
+            "Strawberry",
+            "Watermelon",
+            "Salad",
+            "Pizza",
+            "Pasta",
+            "Popcorn",
+            "Hamburger",
+            "Pie",
+            "Cake",
+            "Sausage",
+            "Kebab",
+            "Poutine",
+            "Seafood",
+            "Chips",
+            "Fries",
+            "Masala",
+            "Chicken",
+            "Chocolate",
+            "Sushi",
+            "Ice cream"
+        ];
+        $("#tags").autocomplete({
+            source: availableTags,
+            minLength: 3,
+        });
+    });
+</script>
+
