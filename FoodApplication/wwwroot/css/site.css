@@ -68,6 +68,7 @@ body {
 
 .dishCard {
     height: 250px;
+    background-color:antiquewhite;
 }
 
 #produ {
@@ -79,13 +80,13 @@ body {
 #recipe-list{
     top: 5rem;
 }
-#recipe-list::-webkit-scrollbar{
+#recipe-list ul::-webkit-scrollbar{
     width: 10px;
 }
-    #recipe-list::-webkit-scrollbar-track {
+    #recipe-list ul::-webkit-scrollbar-track {
         background-color: rgb(46,45,45);
     }
-    #recipe-list::-webkit-scrollbar-thumb {
+    #recipe-list ul::-webkit-scrollbar-thumb {
         background-color: rgb(16, 16, 16);
         border-radius: 10px;
     }
@@ -96,7 +97,7 @@ body {
     font-family: 'Arial, sans-serif';
 }
 
-    .recipe-item:hover {
+    .recipe-item ul:hover {
         background-color: rgb(217, 177, 111);
     }
 
@@ -105,3 +106,6 @@ body {
         color: dark;
         font-weight: bold;
     }
+    .recipe-item::hover a{
+        color: white !important
+    } 

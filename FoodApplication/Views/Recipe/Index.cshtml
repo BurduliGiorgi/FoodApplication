@@ -9,12 +9,43 @@
     </div>
     <div class="row">
         <div class="col-2"  >
-            <div class="shadow rounded">
+            <div class="shadow rounded position-sticky" id="recipe-list">
                 <div class="border-bottom border-3 p-2">
                     <h4 style="color:rgb(237, 187, 121)" class="text-center fst-italic">Recipes</h4>
                     @Html.Partial("_SideMenu")
                 </div>
             </div>
         </div>
+        <div class="col-10">
+            <div class="mb-3">
+                <h4 class="text-dark">Pizza</h4>
+                <div class="row" id="pizzaRecipe"></div>
+            </div>
+            <div class="mb-3">
+                <h4 class="text-dark">Cake</h4>
+                <div class="row" id="cakeRecipe"></div>
+            </div>
+            <div class="mb-3">
+                <h4 class="text-dark">Chicken</h4>
+                <div class="row" id="chickenRecipe"></div>
+            </div>
+            <div class="mb-3">
+                <h4 class="text-dark">Chocolate</h4>
+                <div class="row" id="chocolateRecipe"></div>
+            </div>
+
+        </div>
     </div>
 </div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        GetRecipies("pizza", "pizzaRecipe", false);
+        GetRecipies("cake", "cakeRecipe", false);
+        GetRecipies("chicken", "chickenRecipe", false);
+        GetRecipies("chocolate", "chocolateRecipe", false);
+    })
+        
+
+</script>
