@@ -15,5 +15,10 @@ namespace FoodApplication.Controllers
         {
             return PartialView("_RecipeCard", recipes);
         }
+        public IActionResult Search([FromQuery] string recipe)
+        {
+            ViewBag.Recipe = recipe;
+            return View();
+        }
     }
 }
