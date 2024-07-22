@@ -61,7 +61,7 @@ body {
 
 .minititle {
     color: rgb(237, 187, 121);
-    margin-left: 400px;
+    margin-left: 500px;
     font-weight: bold;
 
 }
@@ -98,7 +98,7 @@ body {
 }
 
     .recipe-item ul:hover {
-        background-color: rgb(217, 177, 111);
+        background-color: rgb(217, 177, 111) !important ;
     }
 
     .recipe-item a {
@@ -108,4 +108,64 @@ body {
     }
     .recipe-item::hover a{
         color: white !important
-    } 
+    }
+
+
+
+/* Container styles */
+.col-sm-4, .col-md-4, .col-lg-4, .col-xl-4 {
+    padding: 15px;
+}
+
+.mb-2 {
+    margin-bottom: 15px;
+}
+
+/* Card styles */
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.card {
+    overflow: hidden;
+    background-color:rgb(237, 187, 121);
+}
+
+.dishCard img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Optional: Hover effect */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+/* Optional: Add some responsiveness */
+@media (max-width: 768px) {
+    .col-sm-4, .col-md-4, .col-lg-4, .col-xl-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
