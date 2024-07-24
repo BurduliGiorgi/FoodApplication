@@ -106,36 +106,16 @@ body {
         color: dark;
         font-weight: bold;
     }
-    .recipe-item::hover a{
+    .recipe-item:hover a{
         color: white !important
     }
-
-
-
-/* Container styles */
-.col-sm-4, .col-md-4, .col-lg-4, .col-xl-4 {
-    padding: 15px;
-}
-
-.mb-2 {
-    margin-bottom: 15px;
-}
-
-/* Card styles */
-.shadow {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.rounded {
-    border-radius: 8px;
-}
 
 .card {
     overflow: hidden;
     background-color:rgb(237, 187, 121);
 }
 
-.dishCard img {
+.card img {
     object-fit: cover;
     width: 100%;
     height: auto;
