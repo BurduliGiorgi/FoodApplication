@@ -20,5 +20,14 @@ namespace FoodApplication.Controllers
             ViewBag.Recipe = recipe;
             return View();
         }
+
+        public IActionResult Order([FromQuery] string id) 
+        { 
+            ViewBag.id = id;
+            return View();
+        
+        
+        
+        }
     }
 }

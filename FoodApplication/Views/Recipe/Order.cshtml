@@ -1,10 +1,11 @@
-﻿@{
-    ViewData["Title"] = "Search";
+﻿
+@{
+    ViewData["Titile"] = "Order";
 }
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-12 mb-4">
+    <div class="row mb-4">
+        <div class="col-12">
             @Html.Partial("_SearchBar")
         </div>
     </div>
@@ -18,16 +19,9 @@
             </div>
         </div>
         <div class="col-10">
-            <h2 style="color:antiquewhite">Search Recipes</h2>
-        <div id="searchRecipes" class="row"></div>
+            <div class="mb-3">
+                <h4 style="color:rgb(237, 187, 121)"; class="text-center ">Order</h4>
+            </div>
         </div>
     </div>
 </div>
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        GetRecipies('@ViewBag.Recipe', 'searchRecipes', true)
-    })
-    
-
-</script>

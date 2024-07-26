@@ -66,6 +66,7 @@ body {
 
 }
 
+
 .dishCard {
     height: 250px;
     background-color:antiquewhite;
@@ -110,42 +111,32 @@ body {
         color: white !important
     }
 
-.card {
-    overflow: hidden;
-    background-color:rgb(237, 187, 121);
+.btn-custom {
+    background-color: black;
+    border-color: black;
+    color: #fff; /* Adjust this to the primary color if needed */
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem; /* Adjusted for small button size */
+    border-radius: 0.25rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.card img {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-}
-
-.card-body {
-    padding: 15px;
-}
-
-.card-title {
-    font-size: 1.25em;
-    font-weight: bold;
-    margin-bottom: 0.5em;
-}
-
-.card-text {
-    font-size: 1em;
-    color: #555;
-}
-
-/* Optional: Hover effect */
-.card:hover {
-    transform: scale(1.05);
-    transition: transform 0.2s;
-}
-
-/* Optional: Add some responsiveness */
-@media (max-width: 768px) {
-    .col-sm-4, .col-md-4, .col-lg-4, .col-xl-4 {
-        flex: 0 0 100%;
-        max-width: 100%;
+    .btn-custom:hover {
+        background-color: #333; /* Slightly lighter black for hover effect */
+        border-color: #333; /* Matching border color for hover effect */
     }
-}
+
+    .btn-custom:focus {
+        outline: none; /* Remove the focus outline */
+        box-shadow: none; /* Remove the box shadow */
+    }
+
+    .btn-custom a {
+        color: white;
+        text-decoration: none;
+    }
