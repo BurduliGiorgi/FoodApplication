@@ -140,3 +140,7 @@ body {
         color: white;
         text-decoration: none;
     }
+
+#order-img {
+    height:230px;
+}

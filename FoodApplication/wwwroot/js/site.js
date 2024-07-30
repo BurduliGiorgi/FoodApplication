@@ -27,3 +27,24 @@ function showRecipes(recipes, id) {
         }
     })
 }
+
+
+async function getOrderRecipe(id, showId) {
+    let resp = await fetch(`${apiURL}/${id}?key=${apikey}`);
+    let result = await resp.json();
+    console.log(result)
+    let recipe = result.data.recipe;
+    showOrderRecipeDetails(recipe, showId);
+
+} 
+function showOrderRecipeDetails(orderRecipeDetails, showId) {
+    $.ajax({
+        url: '/Recipe/ShowOrder',
+        data: orderRecipeDetails,
+        dataType: 'html',
+        type: 'POST',
+        success: function (htmlResult) {
+            $('#' + showId).html(htmlResult);
+        }
+    });
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\New folder (6)\\FoodApplication\\FoodApplication.csproj": {}
+    "C:\\Users\\PC\\Desktop\\New folder (7)\\FoodApplication\\FoodApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\New folder (6)\\FoodApplication\\FoodApplication.csproj": {
+    "C:\\Users\\PC\\Desktop\\New folder (7)\\FoodApplication\\FoodApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\New folder (6)\\FoodApplication\\FoodApplication.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\New folder (7)\\FoodApplication\\FoodApplication.csproj",
         "projectName": "FoodApplication",
-        "projectPath": "C:\\Users\\PC\\Desktop\\New folder (6)\\FoodApplication\\FoodApplication.csproj",
+        "projectPath": "C:\\Users\\PC\\Desktop\\New folder (7)\\FoodApplication\\FoodApplication.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\New folder (6)\\FoodApplication\\obj\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\New folder (7)\\FoodApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
