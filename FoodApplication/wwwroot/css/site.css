@@ -113,32 +113,16 @@ body {
 
 .btn-custom {
     background-color: black;
-    border-color: black;
-    color: #fff; /* Adjust this to the primary color if needed */
-    padding: 0.5rem 1rem;
-    font-size: 0.875rem; /* Adjusted for small button size */
-    border-radius: 0.25rem;
+    color: burlywood;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
     display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    user-select: none;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
     .btn-custom:hover {
-        background-color: #333; /* Slightly lighter black for hover effect */
-        border-color: #333; /* Matching border color for hover effect */
-    }
-
-    .btn-custom:focus {
-        outline: none; /* Remove the focus outline */
-        box-shadow: none; /* Remove the box shadow */
-    }
-
-    .btn-custom a {
+        background-color: #333;
         color: white;
-        text-decoration: none;
     }
 
 #order-img {
