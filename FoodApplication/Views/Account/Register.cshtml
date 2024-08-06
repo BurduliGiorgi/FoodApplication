@@ -1,0 +1,37 @@
+﻿@model FoodApplication.Models.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <form autocomplete="off" method="post" class="m-3 p-3">
+                <div class="mb-3">
+                    <h2 style="color: rgb(237, 187, 121)">Register</h2>
+                    <span style="color: rgb(237, 187, 121)" class="fst-italic ">Create your account</span>
+                </div>
+                <div>
+                    @Html.TextBoxFor(m => m.Name, new {@class="form-control",placeholder="Name"})
+                    <label for="Name">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(m => m.Address, new { @class = "form-control", placeholder = "Address" })
+                    <label for="Address">Address</label>
+                </div>
+                <div>
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Email" })
+                    <label for="Email">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(m => m.Password, new { @class = "form-control", placeholder = "Password", type="Password" })
+                    <label for="Password">Password</label>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-sm btn-dark w-100 p-2">Register</button>
+                </div>
+                </form>
+        </div>
+    </div>
+</div>
