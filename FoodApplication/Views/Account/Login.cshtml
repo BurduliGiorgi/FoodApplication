@@ -1,0 +1,29 @@
+﻿@model FoodApplication.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <from autocomplete="off" method="post" class=" m-3 p-3">
+            <div class="mb-3">
+                    <h2 style="color: rgb(237, 187, 121) " class="fst fst-italic">Login</h2>
+                    <span style="color: rgb(237, 187, 121)" class="fst-italic ">Login into your account</span>
+            </div>
+            <div class="form-floating mb-3">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control",placeholder="Email"})
+                <label class="form-label">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+                    @Html.TextBoxFor(m => m.Password, new { @class = "form-control", placeholder = "Password", type = "password" })
+                <label class="form-label">Password</label>
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-sm btn-dark w-100 p-2" type="submit">Login</button>
+            </div>
+        </from>
+        </div>
+    </div>
+</div>
