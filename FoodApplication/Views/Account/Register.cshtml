@@ -12,21 +12,21 @@
                     <h2 style="color: rgb(237, 187, 121)">Register</h2>
                     <span style="color: rgb(237, 187, 121)" class="fst-italic ">Create your account</span>
                 </div>
-                <div>
+                <div class="form-floating mb-3">
                     @Html.TextBoxFor(m => m.Name, new {@class="form-control",placeholder="Name"})
-                    <label for="Name">Name</label>
+                    <label class="form-label" ">Name</label>
                 </div>
                 <div class="form-floating mb-3">
                     @Html.TextBoxFor(m => m.Address, new { @class = "form-control", placeholder = "Address" })
-                    <label for="Address">Address</label>
-                </div>
-                <div>
-                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Email" })
-                    <label for="Email">Email</label>
+                    <label class="form-label" ">Address</label>
                 </div>
                 <div class="form-floating mb-3">
-                    @Html.TextBoxFor(m => m.Password, new { @class = "form-control", placeholder = "Password", type="Password" })
-                    <label for="Password">Password</label>
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Email" })
+                    <label class="form-label">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(m => m.Password, new { @class = "form-control", placeholder = "Password", type = "password" })
+                    <label class="form-label">Password</label>
                 </div>
                 <div class="mb-3">
                     <button type="submit" class="btn btn-sm btn-dark w-100 p-2">Register</button>
