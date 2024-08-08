@@ -1867,3 +1867,8 @@ C:\Users\PC\Desktop\New folder (9)\FoodApplication\obj\Debug\net8.0\refint\FoodA
 C:\Users\PC\Desktop\New folder (9)\FoodApplication\obj\Debug\net8.0\FoodApplication.pdb
 C:\Users\PC\Desktop\New folder (9)\FoodApplication\obj\Debug\net8.0\FoodApplication.genruntimeconfig.cache
 C:\Users\PC\Desktop\New folder (9)\FoodApplication\obj\Debug\net8.0\ref\FoodApplication.dll
+C:\Users\PC\Desktop\New folder (3)\FoodApplication\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\PC\Desktop\New folder (3)\FoodApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\PC\Desktop\New folder (3)\FoodApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PC\Desktop\New folder (3)\FoodApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\PC\Desktop\New folder (3)\FoodApplication\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
