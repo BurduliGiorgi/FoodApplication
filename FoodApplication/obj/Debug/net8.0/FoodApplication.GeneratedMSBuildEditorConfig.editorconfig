@@ -17,75 +17,75 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FoodApplication
 build_property.RootNamespace = FoodApplication
-build_property.ProjectDir = C:\Users\PC\Desktop\New folder (3)\FoodApplication\
+build_property.ProjectDir = C:\Users\PC\Desktop\New folder (4)\FoodApplication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\PC\Desktop\New folder (3)\FoodApplication
+build_property.MSBuildProjectDirectory = C:\Users\PC\Desktop\New folder (4)\FoodApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Account/Login.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Account/Register.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Home/Index.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Home/Privacy.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Recipe/Index.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Recipe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Recipe/Order.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Recipe/Order.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlXE9yZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Recipe/Search.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Recipe/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlXFNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Recipe/_RecipeCard.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Recipe/_RecipeCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlXF9SZWNpcGVDYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Recipe/_SearchBar.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Recipe/_SearchBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlXF9TZWFyY2hCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Recipe/_ShowOrder.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Recipe/_ShowOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlXF9TaG93T3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Recipe/_SideMenu.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Recipe/_SideMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlXF9TaWRlTWVudS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Shared/Error.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/_ViewImports.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/_ViewStart.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/New folder (3)/FoodApplication/Views/Shared/_Layout.cshtml]
+[C:/Users/PC/Desktop/New folder (4)/FoodApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8mqh6jzj3z
