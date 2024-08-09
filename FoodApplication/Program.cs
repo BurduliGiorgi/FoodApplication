@@ -1,4 +1,6 @@
 using FoodApplication.ContextDBConfing;
+using FoodApplication.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Data.Common;
 
@@ -11,6 +13,8 @@ builder.Services.AddControllersWithViews();
 var app = builder.Build();
 builder.Services.AddDbContext<FoodDBContext>(options =>
     options.UseSqlServer(dbConnection));
+
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<FoodDBContext>();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
