@@ -5,16 +5,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FoodApplication.ContextDBConfing
 {
-    public class FoodDBContext:IdentityDbContext<ApplicationUser>
+    public class FoodApplicationDBContext:IdentityDbContext<ApplicationUser>
     {
-        public FoodDBContext(DbContextOptions<FoodDBContext> options): base(options)
+        public FoodApplicationDBContext(DbContextOptions options):base(options)
         {
 
-        }
-
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
         }
 
     }

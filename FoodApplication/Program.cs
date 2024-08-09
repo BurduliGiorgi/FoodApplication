@@ -5,16 +5,17 @@ using Microsoft.EntityFrameworkCore;
 using System.Data.Common;
 
 var builder = WebApplication.CreateBuilder(args);
-var dbConnection = builder.Configuration.GetConnectionString("dbConnection");
+var dbconnectoin= builder.Configuration.GetConnectionString("dbConnection");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<FoodApplicationDBContext>(options =>
+options.UseSqlServer(dbconnectoin));
 
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<FoodApplicationDBContext>();
 var app = builder.Build();
-builder.Services.AddDbContext<FoodDBContext>(options =>
-    options.UseSqlServer(dbConnection));
 
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<FoodDBContext>();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -28,6 +29,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
