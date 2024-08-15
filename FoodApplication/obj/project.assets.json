@@ -7287,7 +7287,6 @@
     "net8.0": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.11",
       "Microsoft.EntityFrameworkCore >= 6.0.11",
-      "Microsoft.EntityFrameworkCore.Design >= 6.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.11",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.3"
@@ -7300,11 +7299,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\New folder (4)\\FoodApplication\\FoodApplication.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\New folder\\FoodApplication\\FoodApplication.csproj",
       "projectName": "FoodApplication",
-      "projectPath": "C:\\Users\\PC\\Desktop\\New folder (4)\\FoodApplication\\FoodApplication.csproj",
+      "projectPath": "C:\\Users\\PC\\Desktop\\New folder\\FoodApplication\\FoodApplication.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\New folder (4)\\FoodApplication\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\New folder\\FoodApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7347,12 +7346,6 @@
             "version": "[6.0.11, )"
           },
           "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[6.0.11, )"
-          },
-          "Microsoft.EntityFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.11, )"
           },
