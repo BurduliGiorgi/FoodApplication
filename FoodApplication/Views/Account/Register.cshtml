@@ -7,10 +7,13 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-            <form autocomplete="off" method="post" class="m-3 p-3">
+            <form autocomplete="off" method="post" class="m-3 p-3" action="/Account/Register/">
                 <div class="mb-3">
                     <h2 style="color: rgb(237, 187, 121)">Register</h2>
                     <span style="color: rgb(237, 187, 121)" class="fst-italic ">Create your account</span>
+                </div>
+                <div class="mb-3">
+                    @Html.ValidationSummary()
                 </div>
                 <div class="form-floating mb-3">
                     @Html.TextBoxFor(m => m.Name, new {@class="form-control",placeholder="Name"})

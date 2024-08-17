@@ -134,3 +134,8 @@ body {
     color: white;
     font-weight: bold;
 }
+
+
+.validation-summary-errors li{
+    color: #dc3545;
+}
