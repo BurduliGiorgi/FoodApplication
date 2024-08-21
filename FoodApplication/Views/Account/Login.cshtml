@@ -7,27 +7,30 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-            <from autocomplete="off" method="post" class="m-3 p-3">
-            <div class="mb-3">
-                    <h2 style="color: rgb(237, 187, 121) " class="fst fst-italic">Login</h2>
-                    <span style="color: rgb(237, 187, 121)" class="fst-italic ">Login into your account</span>
-            </div>
-            <div class="form-floating mb-3">
-                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control",placeholder="Email"})
-                <label class="form-label">Email</label>
-            </div>
-            <div class="form-floating mb-3">
+            <form autocomplete="off" method="post" class="m-3 p-3" action="/Account/Login">
+                <div class="mb-3">
+                    <h2 style="color: rgb(237, 187, 121)" class="fst fst-italic">Login</h2>
+                    <span style="color: rgb(237, 187, 121)" class="fst-italic">Login into your account</span>
+                </div>
+                <div class="mb-3">
+                    @Html.ValidationSummary();
+                </div>
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Email" })
+                    <label class="form-label">Email</label>
+                </div>
+                <div class="form-floating mb-3">
                     @Html.TextBoxFor(m => m.Password, new { @class = "form-control", placeholder = "Password", type = "password" })
-                <label class="form-label">Password</label>
-            </div>
-            <div class="mb-3">
-                <button class="btn btn-sm btn-dark w-100 p-2 shadow rounded" type="submit">Login</button>
-            </div>
-            <div class="mb-3">
-                    <span style="color: rgb(237, 187, 121)">Don't have an account ?</span>
-                    <a style="color: rgb(237, 187, 121)" asp-controller="account" asp-action="Register" class="text-decoration-none ">Register Here</a>
-            </div>
-        </from>
+                    <label class="form-label">Password</label>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-sm btn-dark w-100 p-2 shadow rounded" type="submit">Login</button>
+                </div>
+                <div class="mb-3">
+                    <span style="color: rgb(237, 187, 121)">Don't have an account?</span>
+                    <a style="color: rgb(237, 187, 121)" asp-controller="account" asp-action="Register" class="text-decoration-none">Register Here</a>
+                </div>
+            </form>
         </div>
     </div>
 </div>
