@@ -1,11 +1,17 @@
 ﻿using FoodApplication.Models;
 using Microsoft.AspNetCore.Mvc;
 using FoodApplication.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace FoodApplication.Controllers
 {
     public class RecipeController : Controller
     {
+        private readonly UserManager<ApplicationUser> _userManager;
+        public RecipeController(UserManager<ApplicationUser> userManager)
+        {
+            _userManager = userManager;
+        }
         public IActionResult Index()
         {
             return View();
@@ -22,7 +28,7 @@ namespace FoodApplication.Controllers
         }
 
         public IActionResult Order([FromQuery] string id) 
-        { 
+        {
             ViewBag.id = id;
             return View();
         
@@ -30,10 +36,13 @@ namespace FoodApplication.Controllers
         
         }
         [HttpPost]
-        public IActionResult ShowOrder(OrderRecipeDetails orderRecipeDetails)
+        public async Task<IActionResult> ShowOrder(OrderRecipeDetails orderRecipeDetails)
         {
             Random random = new Random();
             ViewBag.Price = Math.Round(random.Next(150,500)/5.0)*5;
+            var user = await _userManager.GetUserAsync(HttpContext.User);
+            ViewBag.UserId = user?.Id;
+            ViewBag.Address = user?.Address;
             return PartialView("_ShowOrder", orderRecipeDetails);
         }
     }
