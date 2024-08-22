@@ -139,3 +139,18 @@ body {
 .validation-summary-errors li{
     color: #dc3545;
 }
+
+#qty{
+    width: 50px;
+    border: none;
+}
+
+#qty:focus {
+    outline: none;
+}
+
+#qtySection{
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select: none;
+}
