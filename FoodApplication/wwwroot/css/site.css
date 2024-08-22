@@ -162,3 +162,12 @@ body {
     cursor:pointer;
 }
 
+
+#totalAmount, #price {
+    width: 60px;
+    border:none;
+}
+
+#totalAmount:focus, #price:focus{
+    outline:none;
+}
