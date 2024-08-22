@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using FoodApplication.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FoodApplication.Controllers
 {
@@ -47,6 +48,7 @@ namespace FoodApplication.Controllers
         }
 
         [HttpPost]
+        [Authorize]
 
         public IActionResult Order(Order order)
         {

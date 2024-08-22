@@ -1,6 +1,5 @@
 ﻿@model FoodApplication.Models.OrderRecipeDetails
 
-
 <div class="container-fluid shadow rounded">
     <div class="row">
         <div class="col-12">
@@ -8,61 +7,69 @@
         </div>
     </div>
     <div class="row mt-2">
-        <div class="col-sm-10 col-md-10 col-lg-0 col-xl-10">
+        <div class="col-12">
             <h2 class="text-white">@Model.Title</h2>
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+        <div class="col-lg-6">
             <div class="table-responsive">
                 <table style="border: 1px solid white; border-collapse: collapse;">
                     <thead>
                         <tr>
-                            <th class="text-white" style="border: 1px solid white";>Description</th>
+                            <th class="text-white" style="border: 1px solid white;">Description</th>
                             <th class="text-white" style="border: 1px solid white;">Quantity</th>
-                            <th class="text-white" style="border: 1px solid white;">unit</th>
+                            <th class="text-white" style="border: 1px solid white;">Unit</th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach (var ing in Model.Ingredients)
                         {
-                         <tr>
-                            <td class="text-white" style="border: 1px solid white";>@ing.Description</td>
-                                <td class="text-white" style="border: 1px solid white" ;>@ing.Quantity</td>
-                                <td class="text-white" style="border: 1px solid white" ;>@ing.unit</td>
+                            <tr>
+                                <td class="text-white" style="border: 1px solid white;">@ing.Description</td>
+                                <td class="text-white" style="border: 1px solid white;">@ing.Quantity</td>
+                                <td class="text-white" style="border: 1px solid white;">@ing.unit</td>
                             </tr>
                         }
                     </tbody>
                 </table>
             </div>
         </div>
-        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-            <div class="p-2">
-                <p class="text-muted">Bill Details</p>
-                <div class="row border-bottom border-2 border-light">
-                    <label class="col-10 col-form-label text-muted">Price</label>
-                    <div class="col-2">
-                        <span class="text-success fw-bold"><i class="fa-solid fa-dollar-sign"></i>@ViewBag.Price</span>
+        <div class="col-lg-6">
+            <form autocomplete="off" method="post">
+                <div class="p-2">
+                    <p class="text-muted">Bill Details</p>
+                    <div class="row border-bottom border-2 border-light">
+                        <label class="col-10 col-form-label text-muted">Price</label>
+                        <div class="col-2">
+                            <span class="text-success fw-bold"><i class="fa-solid fa-dollar-sign"></i>@ViewBag.Price</span>
+                        </div>
+                    </div>
+                    <div id="qtySection" class="row border-bottom">
+                        <label class="col-9 col-form-label text-muted">Quantity</label>
+                        <div class="col-3 border border-success border-4 p-1 text-center rounded">
+                            <span style="color:white" onclick="quantity('inc')"><i class="fa-solid fa-plus text-success"></i></span>
+                            <input type="text" id="qty" class="bg-white text-center text-success fw-bold" value="1" readonly />
+                            <span style="color:white" onclick="quantity('dec')"><i class="fa-solid fa-minus text-success"></i></span>
+                        </div>
+                    </div>
+                    <div class="row border-bottom border-light">
+                        <label class="col-10 col-form-label text-muted">Delivery Charge</label>
+                        <label class="col-2 col-form-label text-success fw-bold">Free</label>
+                    </div>
+                    <div class="px-1 mb-2">
+                        <label class="form-label text-muted">Delivery Address</label>
+                        <input type="text" class="form-control" name="Address" value="@ViewBag.Address">
+                    </div>
+                    <div class="row border-bottom border-light border-1">
+                        <label class="col-10 col-form-label fs-5 fw-bold text-white">Total</label>
+                        <span class="col-2 text-success fw-bold"><i class="fa-solid fa-dollar-sign"></i>@ViewBag.Price</span>
+                    </div>
+                    <div class="mt-2 text-center">
+                        <button type="submit" class="btn btn-success btn-sm p-2 shadow rounded">Order</button>
                     </div>
                 </div>
-                <div id="qtySection" class="row border-bottom ">
-                    <label class="col-9 col-form-label text-muted">Quantity</label>
-                    <div class="col-3 border border-success border-4 p-1 text-center rounded">
-                        <span style="color:white"  onclick="quantity('inc')"><i class="fa-solid fa-plus text-success"></i></span>
-                        <input type="text" id="qty" class="bg-white text-center text-success fw-bold" value="1" readonly />
-                        <span style="color: white" onclick="quantity('dec')"><i class="fa-solid fa-minus text-success"></i></span>
-            </div>
+            </form>
         </div>
-                <div class="row border-bottom border-light">
-                    <label class="col-10 col-form-label text-muted">Delivery Charge</label>
-                    <label class="col-2 col-form-label text-success fw-bold">Free</label>
-    </div>
-    <div class="px-1 mb-2">
-        <label class="form-label text-muted">Delivery Address</label>
-        <input type="text" class="form-control" name="Address" value="@ViewBag.Address"></input>
-    </div>
-                <div class="row border-bottom border-light border-1 ">
-                    <label class="col-10 col-form-label fs-5 fw-bold text-white">Total</label>
-        <label class="col-2 text-success fw-bold "><i class="fa-solid fa-dollar-sign"></i>@ViewBag.Price</label>
     </div>
 </div>
