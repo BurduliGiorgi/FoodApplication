@@ -17,5 +17,6 @@ namespace FoodApplication.ContextDBConfing
             base.OnModelCreating(builder);
         }
 
+        public DbSet<Order> Orders { get; set; }
     }
 }
