@@ -171,3 +171,11 @@ body {
 #totalAmount:focus, #price:focus{
     outline:none;
 }
+
+.AddToCartIcon{
+    cursor: pointer;
+}
+
+.bg-black{
+    background-color: #0d243d;
+}
