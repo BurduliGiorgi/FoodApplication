@@ -35,9 +35,12 @@
                             <a class="nav-link fw-bold" asp-area="">Menu</a>
                         </li>
                     </ul>
-                    @if (User.Identity.IsAuthenticated)
+                    @if (User.Identity!.IsAuthenticated)
                     {
-                        <div>
+                        <div class="d-flex justify-content-center align-content-lg-center">
+                            <div class="text-center nav-link">
+                                <span><i class="fa-solid fa-cart-shopping "></i></span>
+                            </div>
                             <a class="nav-link fw-bold text-success" asp-controller="Account" asp-action="Logout">LogOut</a>
                         </div>
                     }
