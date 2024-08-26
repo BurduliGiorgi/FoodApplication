@@ -35,5 +35,13 @@ namespace FoodApplication.Controllers
             }
             return BadRequest();
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAddedCarts()
+        {
+            var user = await data.GetUser(HttpContext.User);
+            var carts = context.Carts.Where(c => c.UserId == user.Id).Select(c => c.RecipeId).ToList();
+            return Ok(carts);
+        }
     }
 }

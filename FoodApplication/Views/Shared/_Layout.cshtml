@@ -133,6 +133,15 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/jquery-ui.min.js"></script>
+    @if (User.Identity!.IsAuthenticated)
+    {
+        <script type="text/javascript">
+        $(document).ready(function (){
+            getAddedCarts();
+
+        }
+        </script>
+    }
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

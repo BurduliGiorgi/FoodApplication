@@ -12,7 +12,9 @@
                 </div >
                 <div class="d-flex flex-wrap justify-content-between">
                 <a href="/Recipe/Order/?id=@recipe.Id" class="p-2 bg-black text-white btn-custom shadow rounded">Order</a>
-                <span class="AddToCartIcon"><i class="fa-regular fa-heart fs-3"></i></span>
+                <span class="AddToCartIcon" onclick="cart.call(this)" data-recipeId="@recipe.Id">
+                    <i class="fa-regular fa-heart fs-3"></i>
+                    </span>
                 </div>
             </div>
         </div>
