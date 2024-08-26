@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FoodApplication.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FoodApplication.Controllers
 {
@@ -7,6 +8,12 @@ namespace FoodApplication.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+        [HttpPost]
+
+        public IActionResult SaveCart(Cart cart)
+        {
+            return Ok();
         }
     }
 }

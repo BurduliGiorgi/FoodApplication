@@ -67,3 +67,4 @@ function quantity(option) {
     $('#qty').val(qty);
     $('#price').val(totalAmount)
 }
+
