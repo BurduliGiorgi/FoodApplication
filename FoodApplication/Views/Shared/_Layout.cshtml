@@ -38,10 +38,17 @@
                     @if (User.Identity!.IsAuthenticated)
                     {
                         <div class="d-flex justify-content-center align-content-lg-center">
-                            <div class="text-center nav-link">
-                                <span><i class="fa-solid fa-cart-shopping "></i></span>
+                            <div class="text-center position-relative">
+                                <span style="color:rgb(237, 187, 121)" id="cartListIcon"><i class="fa-solid fa-cart-shopping fs-4"></i></span>
+                                <div id="showCartList" class="position-absolute shadow rounded p-2">
+                                    <span style="color:azure">Demo</span>
+                                </div>
                             </div>
-                            <a class="nav-link fw-bold text-success" asp-controller="Account" asp-action="Logout">LogOut</a>
+                            <div>
+                            <a class="nav-link fw-bold text-success"
+                            asp-controller="Account" asp-action="Logout">LogOut</a>
+                            <div id="showCartList" class="position-relative"></div>
+                            </div>
                         </div>
                     }
                     else

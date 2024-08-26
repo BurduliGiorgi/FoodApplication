@@ -179,3 +179,12 @@ body {
 .bg-black{
     background-color: #0d243d;
 }
+
+#showCartList{
+
+    display: none;
+}
+
+#cartListIcon:hover ~#showCartList {
+    display: block;
+}
