@@ -81,7 +81,8 @@ async function cart() {
         cartRequest(cart, 'SaveCart', 'fa-solid', 'fa-regular', iTag);
 
     } else {
-
+        let data = { Id: recipeId }; 
+        cartRequest(data, 'RemoveCartFromList', 'fa-regular', 'fa-solid', iTag);
     }
 }
 

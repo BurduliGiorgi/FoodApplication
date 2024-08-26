@@ -43,5 +43,22 @@ namespace FoodApplication.Controllers
             var carts = context.Carts.Where(c => c.UserId == user.Id).Select(c => c.RecipeId).ToList();
             return Ok(carts);
         }
+
+        [HttpPost]
+        public IActionResult RemoveCartFromList(string Id)
+        {
+            if(!string.IsNullOrEmpty(Id))
+            {
+
+                var cart = context.Carts.Where(c => c.RecipeId == Id).FirstOrDefault();
+                if (cart != null)
+                {
+                    context.Carts.Remove(cart);
+                    context.SaveChanges();
+                    return Ok();
+                }
+            }
+            return BadRequest();
+        }
     }
 }
