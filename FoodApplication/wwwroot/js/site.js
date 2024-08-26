@@ -32,7 +32,6 @@ function showRecipes(recipes, id) {
 async function getOrderRecipe(id, showId) {
     let resp = await fetch(`${apiURL}/${id}?key=${apikey}`);
     let result = await resp.json();
-    console.log(result)
     let recipe = result.data.recipe;
     showOrderRecipeDetails(recipe, showId);
 
@@ -68,3 +67,35 @@ function quantity(option) {
     $('#price').val(totalAmount)
 }
 
+
+async function cart() {
+    let iTag = $(this).children('i')[0];
+    let recipeId = $(this).attr('data-recipeId')
+    if ($(iTag).hasClass('fa-regular')) {
+        let resp = await fetch(`${apiURL}/${recipeId}?key=${apikey}`);
+        let result = await resp.json();
+        let cart = result.data.recipe;
+        cart.recipeId = recipeId;
+        delete cart.id;
+        cartRequest(cart, 'SaveCart');
+
+    } else {
+
+    }
+}
+
+
+function cartRequest(data, action) {
+    $.ajax({
+        url: '/Cart/' + action,
+        type: 'POST',
+        data: data,
+        success: function (resp) {
+            console.log(resp);
+        },
+        error: function (err) {
+            console.log(err)
+        }
+    })
+
+}
