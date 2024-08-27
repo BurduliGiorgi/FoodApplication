@@ -1,4 +1,13 @@
-﻿
-@*
-    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<FoodApplication.Models.Cart>
+
+@foreach (var cart in Model)
+{
+    <div class="border-bottom p-1 d-flex">
+        <img src="@cart.Image_url" class="cartListImg" />
+        <a class="fw-bold text-dark text-decoration-none" href="/Recipe/Order?id=@cart.RecipeId">@cart.Title</a>
+    </div>
+}
+
+<div class="text-center">
+    <a href="/Cart" class="bg-black text-white p-2 text-decoration-none">Go to cart</a>
+</div>

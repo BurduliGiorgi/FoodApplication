@@ -188,3 +188,9 @@ body {
 #cartListIcon:hover ~#showCartList {
     display: block;
 }
+
+
+.cartListImg {
+    width: 180px;
+    height: 100px;
+}
