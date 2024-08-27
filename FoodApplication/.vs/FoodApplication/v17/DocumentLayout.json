@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|c:\\users\\pc\\desktop\\new folder (2)\\foodapplication\\views\\cart\\_cartlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:views\\cart\\_cartlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|c:\\users\\pc\\desktop\\new folder (2)\\foodapplication\\views\\cart\\_cartlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:views\\cart\\_cartlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|c:\\users\\pc\\desktop\\new folder (2)\\foodapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\views\\recipe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:views\\recipe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|c:\\users\\pc\\desktop\\new folder (2)\\foodapplication\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\views\\recipe\\_searchbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:views\\recipe\\_searchbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\views\\recipe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:views\\recipe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -29,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\views\\recipe\\_recipecard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -65,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,10 +123,6 @@
       "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:views\\recipe\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\views\\recipe\\_searchbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:views\\recipe\\_searchbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Migrations\\20240826134547_RecipeId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{077C42F5-D080-4BA6-B486-31F980BC278B}|FoodApplication.csproj|solutionrelative:Migrations\\20240826134547_RecipeId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -135,56 +139,29 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_CartList.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Cart\\_CartList.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cart\\_CartList.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Cart\\_CartList.cshtml",
-              "RelativeToolTip": "Views\\Cart\\_CartList.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-27T11:41:11.059Z",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAALkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-16T11:04:30.037Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder\\FoodApplication\\wwwroot\\css\\site.css*",
-              "RelativeToolTip": "..\\..\\New folder\\FoodApplication\\wwwroot\\css\\site.css*",
-              "ViewState": "AQIAALQAAAAAAAAAAAAAALwAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-16T11:04:30.037Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-17T13:34:49.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Controllers\\CartController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAkwEYAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:17:31.065Z",
+              "DocumentIndex": 6,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAmwIYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-21T12:16:01.135Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -195,9 +172,36 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEkAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-16T11:02:16.83Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T12:24:10.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_CartList.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Cart\\_CartList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\_CartList.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Cart\\_CartList.cshtml",
+              "RelativeToolTip": "Views\\Cart\\_CartList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAADBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T11:41:11.059Z",
               "EditorCaption": ""
             },
             {
@@ -208,13 +212,14 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAADgAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T10:42:55.121Z"
+              "WhenOpened": "2024-07-26T10:42:55.121Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "_RecipeCard.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Recipe\\_RecipeCard.cshtml",
               "RelativeDocumentMoniker": "Views\\Recipe\\_RecipeCard.cshtml",
@@ -226,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
@@ -238,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Recipe\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Recipe\\Index.cshtml",
@@ -250,7 +255,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
+              "Title": "_SearchBar.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Recipe\\_SearchBar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Recipe\\_SearchBar.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Recipe\\_SearchBar.cshtml",
+              "RelativeToolTip": "Views\\Recipe\\_SearchBar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T15:06:41.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowEIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T12:17:31.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "Controllers\\RecipeController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwCEAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T14:55:24.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T13:34:49.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "_ShowOrder.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Recipe\\_ShowOrder.cshtml",
               "RelativeDocumentMoniker": "Views\\Recipe\\_ShowOrder.cshtml",
@@ -262,19 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\wwwroot\\js\\site.js*",
-              "RelativeToolTip": "wwwroot\\js\\site.js*",
-              "ViewState": "AQIAADsAAAAAAAAAAAAswEcAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-21T12:16:01.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "FoodDBContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\ContextDBConfing\\FoodDBContext.cs",
               "RelativeDocumentMoniker": "ContextDBConfing\\FoodDBContext.cs",
@@ -286,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "Models\\Cart.cs",
@@ -298,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "20240826134547_RecipeId.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Migrations\\20240826134547_RecipeId.cs",
               "RelativeDocumentMoniker": "Migrations\\20240826134547_RecipeId.cs",
@@ -310,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Data.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Repository\\Data.cs",
               "RelativeDocumentMoniker": "Repository\\Data.cs",
@@ -322,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "IData.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Repository\\IData.cs",
               "RelativeDocumentMoniker": "Repository\\IData.cs",
@@ -334,19 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RecipeController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Controllers\\RecipeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RecipeController.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (4)\\FoodApplication\\Controllers\\RecipeController.cs*",
-              "RelativeToolTip": "..\\..\\New folder (4)\\FoodApplication\\Controllers\\RecipeController.cs*",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAADIAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T14:55:24.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
@@ -358,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
@@ -370,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -382,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
@@ -394,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "_SideMenu.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Recipe\\_SideMenu.cshtml",
               "RelativeDocumentMoniker": "Views\\Recipe\\_SideMenu.cshtml",
@@ -406,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -418,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -430,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "20240815120256_Initial.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Migrations\\20240815120256_Initial.cs",
               "RelativeDocumentMoniker": "Migrations\\20240815120256_Initial.cs",
@@ -442,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Order.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Recipe\\Order.cshtml",
               "RelativeDocumentMoniker": "Views\\Recipe\\Order.cshtml",
@@ -454,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Search.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Recipe\\Search.cshtml",
               "RelativeDocumentMoniker": "Views\\Recipe\\Search.cshtml",
@@ -466,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "OrderRecipeDetails.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Models\\OrderRecipeDetails.cs",
               "RelativeDocumentMoniker": "Models\\OrderRecipeDetails.cs",
@@ -478,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Recipe.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Models\\Recipe.cs",
               "RelativeDocumentMoniker": "Models\\Recipe.cs",
@@ -487,18 +519,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T12:58:29.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "_SearchBar.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Recipe\\_SearchBar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Recipe\\_SearchBar.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\FoodApplication\\Views\\Recipe\\_SearchBar.cshtml",
-              "RelativeToolTip": "Views\\Recipe\\_SearchBar.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-19T15:06:41.031Z"
             }
           ]
         }

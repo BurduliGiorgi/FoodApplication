@@ -38,10 +38,11 @@
                     @if (User.Identity!.IsAuthenticated)
                     {
                         <div class="d-flex justify-content-center align-content-lg-center">
-                            <div class="text-center position-relative">
-                                <span style="color:rgb(237, 187, 121)" id="cartListIcon"><i class="fa-solid fa-cart-shopping fs-4"></i></span>
-                                <div id="showCartList" class="position-absolute shadow rounded p-2">
-                                    <span style="color:azure">Demo</span>
+                            <div class="text-center ">
+                                <span style="color:rgb(237, 187, 121)"class="p-4" id="cartListIcon"><i class="fa-solid fa-cart-shopping fs-4"></i></span>
+                                <div style="z-index: 1; background: rgb(30,29,29);
+background: linear-gradient(90deg, rgba(40,39,39,1) 100%, rgba(70,67,67,1) 100%);
+    " id="showCartList" class="position-absolute shadow rounded p-2">
                                 </div>
                             </div>
                             <div>
@@ -145,8 +146,9 @@
         <script type="text/javascript">
         $(document).ready(function (){
             getAddedCarts();
+            getCartList();
 
-        }
+        })
         </script>
     }
     @await RenderSectionAsync("Scripts", required: false)

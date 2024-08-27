@@ -2,12 +2,12 @@
 
 @foreach (var cart in Model)
 {
-    <div class="border-bottom p-1 d-flex">
-        <img src="@cart.Image_url" class="cartListImg" />
-        <a class="fw-bold text-dark text-decoration-none" href="/Recipe/Order?id=@cart.RecipeId">@cart.Title</a>
+    <div style="z-index: 2;" class="border-bottom p-1 d-flex">
+        <img style="z-index: 2;" src="@cart.Image_url" class="cartListImg" />
+        <a class="fw-bold text-decoration-none" href="/Recipe/Order?id=@cart.RecipeId" style="color:rgb(237, 187, 121); z-index: 2;">@(cart.Title?.Length >= 15 ? cart.Title.Substring(0,14)+"...": cart.Title)</a>
     </div>
 }
 
-<div class="text-center">
-    <a href="/Cart" class="bg-black text-white p-2 text-decoration-none">Go to cart</a>
+<div style="z-index: 2;" class="text-center bg-black p-1">
+    <a style="z-index: 2;" href="/Cart" class="text-white fs-5 text-decoration-none text-decoration-none">Go to cart</a>
 </div>
