@@ -78,23 +78,28 @@ async function cart() {
         let cart = result.data.recipe;
         cart.recipeId = recipeId;
         delete cart.id;
-        cartRequest(cart, 'SaveCart', 'fa-solid', 'fa-regular', iTag);
+        cartRequest(cart, 'SaveCart', 'fa-solid', 'fa-regular', iTag,false);
 
     } else {
         let data = { Id: recipeId }; 
-        cartRequest(data, 'RemoveCartFromList', 'fa-regular', 'fa-solid', iTag);
+        cartRequest(data, 'RemoveCartFromList', 'fa-regular', 'fa-solid', iTag,false);
     }
 }
 
 
-function cartRequest(data, action,addcls,removecls,iTag) {
+function cartRequest(data, action,addcls,removecls,iTag, isReload) {
     $.ajax({
         url: '/Cart/' + action,
         type: 'POST',
         data: data,
         success: function (resp) {
-            $(iTag).addClass(addcls);
-            $(iTag).removeClass(removecls)
+            if (isReload) {
+                location.reload();
+            } else{
+                $(iTag).addClass(addcls);
+                $(iTag).removeClass(removecls)
+            }
+           
         },
         error: function (err) {
             console.log(err)
@@ -144,4 +149,9 @@ function getCartList() {
             console.log(err);
         }
     });
+}
+
+function removeCartfromlist(id) {
+    let data = {Id: id}
+    cartRequest(data, 'RemoveCartFromList', null,null,null,true)
 }

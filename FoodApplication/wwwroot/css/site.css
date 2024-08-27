@@ -200,3 +200,20 @@ body {
 #showCartList:hover {
     display: block;
 }
+
+.cartImage {
+    width: 180px;
+    height: 100px;
+}
+
+.CartTitle {
+    width: 500px;
+}
+
+.emptyCart{
+    font-size: 100px;
+}
+
+.removeCartBTN{
+    cursor: pointer;
+}

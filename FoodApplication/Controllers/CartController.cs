@@ -17,9 +17,11 @@ namespace FoodApplication.Controllers
         }
 
 
-        public IActionResult Index()
+        public  async Task<IActionResult> Index()
         {
-            return View();
+            var user = await data.GetUser(HttpContext.User);
+            var cartsList = context.Carts.Where(c=> c.UserId == user.Id).ToList();
+            return View(cartsList);
         }
         [HttpPost]
 
