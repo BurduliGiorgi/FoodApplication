@@ -2208,3 +2208,4 @@ C:\Users\PC\Desktop\New folder (6)\FoodApplication\bin\Debug\net8.0\runtimes\win
 C:\Users\PC\Desktop\New folder (6)\FoodApplication\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\PC\Desktop\New folder (6)\FoodApplication\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\PC\Desktop\New folder (6)\FoodApplication\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\PC\Desktop\New folder (2)\FoodApplication\bin\Debug\net8.0\System.Text.Json.dll
